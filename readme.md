@@ -13,4 +13,4 @@ Digital version of my Resume/CV
 
 ## Screenshots
 
-![Alt text](./src/assets/preview.jpeg)
+![Alt text](./src/assets/screenshot.jpeg)
