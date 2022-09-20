@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .main-container {
+    @apply container max-w-5xl p-12 mx-auto my-5 bg-slate-900 rounded-3xl;
+  }
+
+  .profile-img {
+    @apply object-cover rounded-full h-72 w-72;
+  }
+
+  .btn-cv {
+    @apply self-start px-8 py-2 duration-300 ease-in-out border rounded-sm hover:bg-red-500 hover:border-red-500;
+  }
+
+  .section-heading {
+    @apply text-xl font-semibold tracking-wide text-red-500 uppercase;
+  }
+
+  .education-degree {
+    @apply text-lg font-medium;
+  }
+  .education-institute {
+    @apply text-slate-400;
+  }
+  .education-date {
+    @apply text-sm  text-slate-600;
+  }
+  .education-location {
+    @apply text-sm  text-slate-600;
+  }
+
+  .work-date {
+    @apply text-sm text-slate-600;
+  }
+
+  .work-heading {
+    @apply text-2xl font-semibold tracking-wide;
+  }
+
+  .work-position {
+    @apply text-slate-400 text-base;
+  }
+
+  .work-list {
+    @apply space-y-1 text-sm list-disc text-slate-500;
+  }
+
+  .project-name {
+    @apply text-2xl font-semibold tracking-wide duration-300 ease-in-out hover:text-red-500;
+  }
+  .project-list {
+    @apply space-y-1 text-sm list-disc text-slate-500;
+  }
+
+  .skills-list {
+    @apply pt-3 pl-5 space-y-1 text-sm list-disc text-slate-500;
+  }
+
+  .social-link {
+    @apply font-light transition-all duration-300 ease-in-out text-slate-500;
+  }
+  .social-icon {
+    @apply duration-300 ease-in-out text-slate-400;
+  }
+}
